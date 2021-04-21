@@ -9,8 +9,11 @@ Return 0 and prints a message when the deep web hash is found, returns 1 otherwi
 ## Examples
 
 `cat file | dwh-check`
+
 `find -type f -exec sh -c "cat {} | dwh-check" \;`
+
 `wget -o /dev/null -O - example.com | dwh-check`
+
 `echo -n sheogmiof | dwh-check > /dev/null && echo O_o`
 
 ## Hashes supported
