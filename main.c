@@ -1,7 +1,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-#include "hashes/hashbox.h"
+#include "dwh-hashkit/hashbox.h"
 
 int main(int argc, char** argv) {
   // Command line arguments - for now, only -h/--help
